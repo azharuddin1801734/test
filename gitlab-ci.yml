@@ -1,0 +1,16 @@
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - apt-get update -qy
+    - apt-get install -y apt-transport-https
+    - curl https://cli-assets.heroku.com/install.sh | sh
+    - echo "$HEROKU_API_KEY" | heroku login -i
+    - heroku git:clone -a freshr-new-demo
+    - cp -R ./* freshr-new-demo/
+    - cd freshr-new-demo
+    - git add .
+    - git commit -m "Build from GitLab"
+    - git push -f heroku HEAD:master

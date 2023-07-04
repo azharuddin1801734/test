@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Cornrows",
+    "photo": "https://i.pinimg.com/564x/2a/c1/93/2ac1938def3139881938ad88dadcb360.jpg",
+    "description": "Cornrows are cool",
+    "minimumPrice": 20
+  },
+  {
+    "name": "Dreadlocks",
+    "photo": "https://matuschka-shop.de/media/image/3e/1a/72/DreadlocksAdobeStock_223877948_kleiner_800x800.jpg",
+    "description": "Dreadlocks are cool",
+    "minimumPrice": 20
+  },
+  {
+    "name": "Highlights",
+    "photo": "https://bfssalonandspa.com/wp-content/uploads/2020/10/brown-highlights-1.jpg",
+    "description": "highlights are cool",
+    "minimumPrice": 12
+  },
+  {
+    "name": "Braid",
+    "photo": "https://swivelbeauty.com/blog/wp-content/uploads/2020/08/IMG_6398E64B4B52-1.jpeg",
+    "description": "Braids are cool",
+    "minimumPrice": 13
+  },
+  {
+    "name": "Wings",
+    "photo": "https://miro.medium.com/max/1150/1*xtqbm0E6FF4D9DUXZj7low.jpeg",
+    "description": "wings are cool",
+    "minimumPrice": 15.99
+  },
+  {
+    "name": "Waves",
+    "photo": "https://i.pinimg.com/originals/8d/49/ea/8d49eaae0f5482f8066075bcf5dafcf1.png",
+    "description": "Waves are cool",
+    "minimumPrice": 10
+  },
+  {
+    "name": "Lob",
+    "photo": "https://content.latest-hairstyles.com/wp-content/uploads/lob-on-straight-blonde-hair-with-lowlights-1.jpg",
+    "description": "Lob is cool",
+    "minimumPrice": 16
+  }
+]

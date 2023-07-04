@@ -1,0 +1,28 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@email.com",
+    "photo": "https://johannesippen.com/img/blog/humans-not-users/header.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [7.549140, 50.366900],
+      "address": "Koblenz metternich"
+    },
+    "password": "1234",
+    "passwordConfirm": "1234"
+  },
+  {
+    "firstName": "Evans",
+    "lastName": "Hughes",
+    "email": "evanse@email.com",
+    "photo": "https://johannesippen.com/img/blog/humans-not-users/header.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [7.549140, 50.366900],
+      "address": "Koblenz metternich"
+    },
+    "password": "1234",
+    "passwordConfirm": "1234"
+  }
+]
