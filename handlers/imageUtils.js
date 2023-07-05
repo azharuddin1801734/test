@@ -29,7 +29,7 @@ const uploadOptions = {
     // keyFilename: "./keys.json",
     credentials: {
       private_key_id: process.env.GOOGLE_PRIVATE_KEY_ID,
-      private_key: process.env.GOOGLE_PRIVATE_KEY ? GOOGLE_PRIVATE_KEY.replace(/\\n/gm, "\n") : "GOOGLE_PRIVATE_KEY is empty",
+      private_key: process.env.GOOGLE_PRIVATE_KEY ? process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/gm, "\n") : "GOOGLE_PRIVATE_KEY  is empty",
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
       client_id: process.env.GOOGLE_CLIENT_ID2,
       auth_uri: process.env.GOOGLE_AUTH_URI,
