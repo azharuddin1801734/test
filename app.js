@@ -32,6 +32,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(mongoSanitize());
 app.use(xss());
 // app.use(hpp({ whitelist: []}));
+app.get('/', (req, res) => {
+  res.send('Welcome to Freshr-App');
+});
 
 app.use("/api/v1/filters/serviceCategories", serviceCategoryRouter);
 app.use("/api/v1/filters/serviceTypes", serviceTypeRouter);
