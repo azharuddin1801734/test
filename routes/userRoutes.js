@@ -27,7 +27,7 @@ router.post(
   "/becomeSpecialist",
   authHandler.protect,
      authHandler.restrictTo("CLIENT", "PRO"),
-     authHandler.restrictToProType("host"),
+     //authHandler.restrictToProType("host"),
   userHandler.becomeSpecialist
 );
 
