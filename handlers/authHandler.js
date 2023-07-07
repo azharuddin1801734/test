@@ -141,18 +141,6 @@ exports.restrictTo =
       next();
     };
 
-exports.restrictToProType = (proType) => {
-  return (req, res, next) => {
-    if (req.user.proType !== proType) {
-      return res.status(403).json({
-        status: "fail",
-        message: "You are not authorized to access this resource.",
-      });
-    }
-    next();
-  };
-};
-
 exports.forgotPassword = catchAsync(async (req, res, next) => {
   const user = await User.findOne({ email: req.body.email });
   if (!user) {
