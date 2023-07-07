@@ -26,8 +26,8 @@ router.delete("/deleteMe", authHandler.protect, userHandler.deleteMe);
 router.post(
   "/becomeSpecialist",
   authHandler.protect,
-  // authHandler.restrictTo("CLIENT", "PRO"),
-  // authHandler.restrictToProType("host"),
+     authHandler.restrictTo("CLIENT", "PRO"),
+     authHandler.restrictToProType("host"),
   userHandler.becomeSpecialist
 );
 
